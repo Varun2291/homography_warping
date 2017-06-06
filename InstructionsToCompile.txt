@@ -1,0 +1,30 @@
+Instructions to Compile:
+
+The program should be executed in an IDLE (python GUI)
+
+By default warping of one image into another image is enabled (question 3). 
+
+Note: Make sure the images are in the same directory as the python file
+-------------------------------------------------------------------
+
+The following are to be done in the default settings
+
+1) To enable matching: 
+	Comment lines 194 & 195
+	Uncomment line 185
+
+2) a) To get Affine Matrix:
+	Comment lines 194 & 195
+	Uncomment line 188
+ 
+   b) To get Homography Matrix:
+	Comment lines 194 & 195
+	Uncomment line 191
+
+3) To enable warping of an image pair: this is the default functionality
+
+4) Blending Multiple images: 
+	Comment lines 194 & 195
+	Uncomment line 198
+
+Note: A stitchedimage.jpg will be created for the last part, this is a temporary file.
